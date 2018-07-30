@@ -1,0 +1,33 @@
+{
+  "name": "styled-oats",
+  "version": "0.0.1",
+  "description": "primitive reusable components for your app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halafi/styled-oats.git"
+  },
+  "keywords": [
+    "styled",
+    "components",
+    "line"
+  ],
+  "author": "Filip Halas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halafi/styled-oats/issues"
+  },
+  "homepage": "https://github.com/halafi/styled-oats#readme",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist --ignore '*.spec.js'"
+  },
+  "dependencies": {
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.1"
+  }
+}
