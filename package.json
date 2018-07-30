@@ -19,7 +19,7 @@
   "homepage": "https://github.com/halafi/styled-oats#readme",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d dist --ignore '*.spec.js'"
+    "build": "rimraf dist && babel src -d dist --ignore '*.spec.js'"
   },
   "dependencies": {
     "styled-components": "^3.3.3"
