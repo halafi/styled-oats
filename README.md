@@ -12,7 +12,6 @@ Primitive reusable components for your app.
 yarn add styled-oats
 ```
 
-
 ```jsx
 import React from 'react'
 import { Line } from 'styled-oats'
@@ -20,7 +19,7 @@ import { Line } from 'styled-oats'
 const App = () => (
   <div>
     <Line fontSize={18} fontWeight={700}>
-      Half width
+      Bois!
     </Line>
   </div>
 )
